@@ -13,6 +13,7 @@ class LessonOne: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         
         for (index, view) in views.enumerated() {
             view.backgroundColor = colors[index]

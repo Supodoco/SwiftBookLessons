@@ -30,6 +30,7 @@ class LessonTwo: UIViewController {
         stackTraficLight.alignment = .center
         
         view.addSubview(stackTraficLight)
+        view.backgroundColor = .white
         
         for (index, view) in views.enumerated() {
             view.translatesAutoresizingMaskIntoConstraints = false

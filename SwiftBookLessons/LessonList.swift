@@ -41,8 +41,7 @@ extension LessonList: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let detailItem = storyboard.instantiateViewController(identifier: lessons[indexPath.row])
-        navigationController?.show(detailItem, sender: self)
+        let controller = indexPath.row == 0 ? LessonOne() : LessonTwo()
+        navigationController?.show(controller, sender: self)
     }
 }

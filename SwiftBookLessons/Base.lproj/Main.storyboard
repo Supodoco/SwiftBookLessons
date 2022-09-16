@@ -24,36 +24,6 @@
             </objects>
             <point key="canvasLocation" x="1883.206106870229" y="-28.87323943661972"/>
         </scene>
-        <!--Lesson One-->
-        <scene sceneID="uGw-FE-rBN">
-            <objects>
-                <viewController storyboardIdentifier="Lesson 1" id="CsG-yH-ahv" customClass="LessonOne" customModule="SwiftBookLessons" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IB9-MN-9k8">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="uMV-bM-Ror"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PZi-5M-Tew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2593.1297709923665" y="-319.01408450704224"/>
-        </scene>
-        <!--Lesson Two-->
-        <scene sceneID="lNH-EQ-6YD">
-            <objects>
-                <viewController storyboardIdentifier="Lesson 2" id="X4b-Ox-qzg" customClass="LessonTwo" customModule="SwiftBookLessons" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lY1-e9-S9k">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="KkL-Kw-Eac"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GPd-ge-rlJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2596.1832061068703" y="325.35211267605638"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="9xs-R5-1tD">
             <objects>
