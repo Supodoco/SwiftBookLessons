@@ -11,6 +11,10 @@ class LessonList: UIViewController {
     
     let tableView = UITableView()
     let lessons = (1...2).map { "Lesson \($0)" }
+    let descriptionForLessons = [
+        "Two equalHeight views",
+        "Traffic Light"
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +36,7 @@ extension LessonList: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        content.text = lessons[indexPath.row]
+        content.text = lessons[indexPath.row] + ": " + descriptionForLessons[indexPath.row]
         cell.contentConfiguration = content
         return cell
     }
