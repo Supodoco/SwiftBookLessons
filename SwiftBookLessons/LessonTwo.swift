@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LessonTwo: UIViewController {
         
     let stackTraficLight = UIStackView()
     let views = [UIView(), UIView(), UIView()]
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         stackConfigure()
         viewsMakeConstraints()
     }
+    
     func stackConfigure() {
         stackTraficLight.distribution = .equalSpacing
         stackTraficLight.axis = .vertical
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
             view.alpha = alpha
             view.backgroundColor = colors[index]
             view.heightAnchor.constraint(equalToConstant: width).isActive = true
-            view.widthAnchor.constraint(equalToConstant: width).isActive = true
+            view.widthAnchor.constraint(equalTo: view.heightAnchor).isActive = true
             stackTraficLight.addArrangedSubview(view)
         }
         stackTraficLight.addArrangedSubview(buttonTurnOnLight)
