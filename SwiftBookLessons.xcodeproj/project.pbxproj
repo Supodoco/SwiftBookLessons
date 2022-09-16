@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C438D49C28D4E7B500ACB872 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438D49B28D4E7B500ACB872 /* LessonOne.swift */; };
 		C455E9B228D4BC5100CFE382 /* LessonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C455E9B128D4BC5100CFE382 /* LessonList.swift */; };
 		C4C101A728D0C49A001B5276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C101A628D0C49A001B5276 /* AppDelegate.swift */; };
 		C4C101A928D0C49A001B5276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C101A828D0C49A001B5276 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C438D49B28D4E7B500ACB872 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		C455E9B128D4BC5100CFE382 /* LessonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonList.swift; sourceTree = "<group>"; };
 		C4C101A328D0C49A001B5276 /* SwiftBookLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBookLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C101A628D0C49A001B5276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				C4C101A628D0C49A001B5276 /* AppDelegate.swift */,
 				C4C101A828D0C49A001B5276 /* SceneDelegate.swift */,
 				C455E9B128D4BC5100CFE382 /* LessonList.swift */,
+				C438D49B28D4E7B500ACB872 /* LessonOne.swift */,
 				C4C101AA28D0C49A001B5276 /* LessonTwo.swift */,
 				C4C101AC28D0C49A001B5276 /* Main.storyboard */,
 				C4C101AF28D0C49B001B5276 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				C4C101A728D0C49A001B5276 /* AppDelegate.swift in Sources */,
 				C4C101A928D0C49A001B5276 /* SceneDelegate.swift in Sources */,
 				C455E9B228D4BC5100CFE382 /* LessonList.swift in Sources */,
+				C438D49C28D4E7B500ACB872 /* LessonOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

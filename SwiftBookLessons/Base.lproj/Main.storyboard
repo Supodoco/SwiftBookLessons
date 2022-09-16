@@ -24,35 +24,15 @@
             </objects>
             <point key="canvasLocation" x="1883.206106870229" y="-28.87323943661972"/>
         </scene>
-        <!--View Controller-->
+        <!--Lesson One-->
         <scene sceneID="uGw-FE-rBN">
             <objects>
-                <viewController storyboardIdentifier="Lesson 1" id="CsG-yH-ahv" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lesson 1" id="CsG-yH-ahv" customClass="LessonOne" customModule="SwiftBookLessons" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IB9-MN-9k8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYN-Sl-50N">
-                                <rect key="frame" x="16" y="74" width="361" height="370"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CP1-i1-9rU">
-                                <rect key="frame" x="16" y="464" width="361" height="354"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uMV-bM-Ror"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="CP1-i1-9rU" firstAttribute="bottom" secondItem="uMV-bM-Ror" secondAttribute="bottom" id="5bR-aB-re3"/>
-                            <constraint firstItem="CP1-i1-9rU" firstAttribute="height" secondItem="tYN-Sl-50N" secondAttribute="height" multiplier="0.956757" id="7u6-5k-dSf"/>
-                            <constraint firstItem="uMV-bM-Ror" firstAttribute="trailing" secondItem="CP1-i1-9rU" secondAttribute="trailing" constant="16" id="G6z-Zc-rdl"/>
-                            <constraint firstItem="CP1-i1-9rU" firstAttribute="top" secondItem="tYN-Sl-50N" secondAttribute="bottom" constant="20" id="NJo-W8-0YO"/>
-                            <constraint firstItem="CP1-i1-9rU" firstAttribute="leading" secondItem="uMV-bM-Ror" secondAttribute="leading" constant="16" id="P6D-Cb-2NY"/>
-                            <constraint firstItem="tYN-Sl-50N" firstAttribute="leading" secondItem="uMV-bM-Ror" secondAttribute="leading" constant="16" id="UGO-99-7Te"/>
-                            <constraint firstItem="uMV-bM-Ror" firstAttribute="trailing" secondItem="tYN-Sl-50N" secondAttribute="trailing" constant="16" id="mL9-5A-aDe"/>
-                            <constraint firstItem="tYN-Sl-50N" firstAttribute="top" secondItem="uMV-bM-Ror" secondAttribute="top" constant="15" id="oI5-VY-nyY"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZi-5M-Tew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -96,12 +76,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
