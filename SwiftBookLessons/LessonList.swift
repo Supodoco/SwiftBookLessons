@@ -11,7 +11,6 @@ class LessonList: UIViewController {
     
     let tableView = UITableView()
     let lessons = (1...2).map { "Lesson \($0)" }
-    let label = UILabel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
